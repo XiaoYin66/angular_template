@@ -1,0 +1,10 @@
+<div class="template">
+    <as-split direction="horizontal">
+        <as-split-area [size]="40">
+            <p>LEFT</p>
+        </as-split-area>
+        <as-split-area [size]="60">
+            <div *ngFor="let item of testDataList">{{item}}</div>
+        </as-split-area>
+    </as-split>
+</div>
